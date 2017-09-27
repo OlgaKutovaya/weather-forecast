@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 100%;
+    min-height: 100vh;
+    background: #0489B1;
+    border: 15px solid #086A87;
+}
+
+.container a {
+    display: inline-block;
+    color: #ffffff;
+    text-shadow: 1.2px 1px #1C1C1C;
+    text-decoration: none;
+}
+
+.container i {
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.container h1 {
+    margin: 5% 0 0 20%;
+    font-size: 30px;
+}
+
+.container .date {
+    margin: 0.2% 0 1% 20%;
+    font-size: 12px;
+}
+
+.container .box {
+    margin: auto;
+    width: 60%;
+    border: 2px solid #ffffff;
+    font-size: 0;
+}
+
+.box .box-item {
+    display: inline-block;
+    height: 115px;
+    padding: 1.5em 0;
+    border: 2px solid #ffffff;
+    text-align: center;
+    font-size: 20px;
+}
+
+.box .indent {
+    margin: 10px auto;
+}
+
+.container .nice-day {
+    font-size: 17px;
+    color: #ffffff;
+    margin-left: 20%;
+}
+                                                    /* Interactivity */
+
+.container h1 a:hover {
+    color: #F5F6CE;
+}
+
+.box-item:hover a{
+    color: #F9F4CE;
+}
+
+.box-item:hover {
+    transform: scale(1.1);
+}
+
+.box-item:hover i {
+    transform: scale(1.5);
+}
+
+
+
+                                                    /* Box size*/
+.box .size-25 {
+    width: 25%;
+}
+
+.box .size-50 {
+    width: 50%
+}
+
+                                                    /* Box colors*/
+
+.box .box-lisbon {
+    background: #53ADC4;
+}
+
+.box .box-paris {
+    background: #04B4AE;
+}
+
+.box .box-belgrade {
+    background: #692D9D;
+
+}
+
+.box .box-moscow {
+    background: #D55842;
+}
+
+.box .box-tel-aviv {
+    background: #E27516;
+}
+
+.box .box-cairo {
+    background: #EFD87C;
+}
+
+.box .box-new-york {
+    background: #8EB076;
+}
+
+.box .box-new-delhi {
+    background: #5E7870;
+}
+
+.box .box-san-francisco {
+    background: #CE4C8D;
+}
+
+.box .box-tokio {
+    background: #2E9953;
+}
+
+.box .box-sidney {
+    width: 100%;
+    background: #7D5A9E;
+}
+
+
