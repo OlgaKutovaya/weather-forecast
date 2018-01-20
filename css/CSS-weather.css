@@ -73,7 +73,9 @@ body {
 }
 
 .box-item:hover {
-    transform: scale(1.1);
+    transform: scale(1.02);
+    transition-duration: 0.4s;
+    box-shadow: 0 0 20px 1px whitesmoke;
 }
 
 .box-item:hover i {
